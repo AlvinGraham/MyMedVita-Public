@@ -15,6 +15,8 @@ MyMedVita Web Application
   <h4 align="center" style="color:yellow">*** DISCLAIMER ***</h4>
   <p align="center" style="color:yellow">All source code for this project is protected by agreement with the client, MyMedVita, not to be shared publicly except for potential employers. If you would like to see the source code and are a potential employer, please contact me at <a href="mailto:grah0071@gmail.com">grah0071@gmail.com</a>.</p>
 
+<video src="public/MyMedVitaDemo.mp4" width="320" height="240" controls></video>
+
   <h3 align="center">
     Please see below for detailed description of this application.
   </h3>
