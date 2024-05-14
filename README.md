@@ -9,16 +9,12 @@ MyMedVita Web Application
 
   <h3 align="center">MyMedVita README</h3>
 
-  <p align="center">
-    Please see below for detail guide on this application.
-    <br />
-    <a href="https://github.com/AlvinGraham/MyMedVita"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/AlvinGraham/MyMedVita">View Demo</a>
-    ·
-    <a href="https://github.com/AlvinGraham/MyMedVita/issues">Request Feature</a>
-  </p>
+  <h4 align="center" style="color:yellow">*** DISCLAIMER ***</h4>
+  <p align="center" style="color:yellow">All source code for this project is protected by agreement with the client, MyMedVita, not to be shared publicly except for potential employers. If you would like to see the source code and are a potential employer, please contact me at <a href="mailto:grah0071@gmail.com">grah0071@gmail.com</a>.</p>
+
+  <h3 align="center">
+    Please see below for detailed description of this application.
+  </h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -29,18 +25,11 @@ MyMedVita Web Application
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#installation">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#getting-started">Installation</a></li>
-      </ul>
+      <a href="#technologies">Technologies Used</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Acknowledgement">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -54,17 +43,9 @@ The MyMedVita web application is a website designed to make prices and options f
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Installation -->
+### Technologies Used
 
-## Installation
-
-How do you get your application up and running? This is a step by step list for how another developer could get this project up and running. The good target audience in terms of knowledge, would be a fellow Primer from another cohort being able to spin up this project. Note that you do not need a paragraph here to intro Installation. It should be step-by-step.
-
-If your application has secret keys (for example -- Twilio), make sure you tell them how to set that up, both in getting the key and then what to call it in the `.env` file.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Prerequisites
+---
 
 - [Node.js](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org)
@@ -73,19 +54,11 @@ If your application has secret keys (for example -- Twilio), make sure you tell 
 - [NodeMailer](https://www.nodemailer.com/)
 - [geocodio](https://www.geocod.io/)
 
-### Environment Variables
-
-This application requires the setting of several environment variables in the deployment environment.
-
-- **DATABASE_URL =** used to define the database deployed environment URL if and only if the application is deployed.
-- **SERVER_SESSION_SECRET =** Used by the authentication logic to salt the encryption of passwords.
-- **CONTACT_SERVICE =** Email service name used by [NodeMailer](https://www.nodemailer.com/) to send messages from the CONTACT page. (e.g. gmail)
-- **CONTACT_USER =** Email service username name used by [NodeMailer](https://www.nodemailer.com/) to send messages from the CONTACT page. (e.g. from.me@gmail.com)
-- **CONTACT_PASSWORD =** Email service password used by [NodeMailer](https://www.nodemailer.com/) to send messages from the CONTACT page. (e.g. password1234 (Don't use this password, it is really, really bad)).
-- **CONTACT_EMAIL =** email address used by [NodeMailer](https://www.nodemailer.com/) to send emails to. (e.g. contactMe@MyMedVita.com)
-- **GEOCODIO_API_KEY =** used by the server to receive geocode information from 3rd party API [geocod.io](https://www.geocod.io/) (Apply for key at [geocod.io](https://www.geocod.io/))
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Third Party APIs
+
+---
 
 GEOCODIO
 [geocodio](https://www.geocod.io/) provide geo-caching service to the server to identify the latitude and longitude of search zip codes for distance comparison. [geocodio](https://www.geocod.io/) is a fee based service with 2,500 free look-ups a day. The MyMedVita Application is built to 'remember' each look up and store the data so it any zip never has to be referred to [geocodio](https://www.geocod.io/) more than once. Other geocoding APIs are available but [geocodio](https://www.geocod.io/) was selected for this application. Requires API key to be set as environment variable.
@@ -95,17 +68,6 @@ GEOCODIO
 | Geocodio               | Pay as you - go 2,500 free lookups/day, then $0.50/1,000 lookups | Forward & reverse geocoding Batch List Geocoding Will geocode postal codes On-premise options | [https://www.geocod.io/](https://www.geocod.io/)                                                                                            |
 | Opencage Geocoding API | Small - $50/month for 10,000 requests/day                        | Free while testing Forward & reverse geocoding No zip only option                             | [https://opencagedata.com/](https://opencagedata.com/)                                                                                      |
 | Google Geocoding API   | 0–100,000 -0.005 USD per each (5.00 USD per 1000)                | Forward & reverse geocoding Maps SDK & geocoding API all in one place                         | [https://developers.google.com/maps/ documentation/geocoding/overview](https://developers.google.com/maps/documentation/geocoding/overview) |
-
-### Getting Started
-
-1. Create a database named `MyMedVita`,
-2. The queries in the `database.sql` file are set up to create all the necessary tables and populate the needed data to allow the application to run correctly. The project is built on [Postgres](https://www.postgresql.org/download/), so you will need to make sure to have that installed. We recommend using [Postico](https://eggerapps.at/postico2/) to run those queries as that was used to create the queries. For more detail see [Database Documentation](./documentation/Database.md).
-3. Open up your editor of choice and run an `npm install`
-4. Run `npm run server` in one terminal
-5. Run `npm run client` in a separate terminal
-6. The `npm run client` command will open up a new browser tab for you!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE -->
 
@@ -211,29 +173,22 @@ Allows users to see their saved searches for later reference
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Built With
+### Contributing
 
-Node
-Express
-React
-Redux
-Postgresql
-MaterialUI
-API Docs
-React Leaflet
-Geocodio
+---
 
-## Acknowledgement
+This application was developed by the following group of Fullstack Software Engineering Students
 
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped us to make this application a reality.
+- [Alvin Graham](grah0071@gmail.com)
+- [Nicole Barnhouse](nicolebarnhouse@gmail.com)
+- [Kevin Sieracke](ksieracke@gmail.com)
+- [Jessica Yang](jessiyang1996@gmail.com)
+- [Ryan Barfield](cadium828@gmail.com)
+- [Sarith Seang](Sarithseang82pro@gmail.com)
+- [Scott Pak](gpak86@gmail.com)
 
-## Support
+### Acknowledgement
 
-If you have suggestions or issues, please email at:
-[Nicole](nicolebarnhouse@gmail.com)
-[Kevin](ksieracke@gmail.com)
-[Jessica](jessiyang1996@gmail.com)
-[Alvin](grah0071@gmail.com)
-[Ryan] (cadium828@gmail.com)
-[Sarith](Sarithseang82pro@gmail.com)
-[Scott](gpak86@gmail.com)
+---
+
+Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped us to make this application a reality and to the MyMedVita organization in giving us a project to stretch our collective skills.
