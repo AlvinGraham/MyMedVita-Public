@@ -1,3 +1,6 @@
+<!-- README TOP -->
+
+<a id="readme-top"></a>
 MyMedVita Web Application
 
 <!-- PROJECT LOGO -->
@@ -25,7 +28,7 @@ MyMedVita Web Application
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#technologies">Technologies Used</a>
+      <a href="#technologies-used">Technologies Used</a>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -43,7 +46,9 @@ The MyMedVita web application is a website designed to make prices and options f
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Technologies Used
+<!--- TECHNOLOGIES USED --->
+
+## Technologies Used
 
 ---
 
@@ -69,37 +74,38 @@ GEOCODIO
 | Opencage Geocoding API | Small - $50/month for 10,000 requests/day                        | Free while testing Forward & reverse geocoding No zip only option                             | [https://opencagedata.com/](https://opencagedata.com/)                                                                                      |
 | Google Geocoding API   | 0–100,000 -0.005 USD per each (5.00 USD per 1000)                | Forward & reverse geocoding Maps SDK & geocoding API all in one place                         | [https://developers.google.com/maps/ documentation/geocoding/overview](https://developers.google.com/maps/documentation/geocoding/overview) |
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- USAGE -->
 
-## Usage
+### Usage
 
 <!-- How does someone use this application? Tell a user story here. -->
 
 The navigation header bar will have global navigation links for all users (both authenticated and unauthenticated). Before a user logs in, the Navigation bar will display links to the About, Features, and Contact pages. Upon clicking on these links it will navigate the user to the said links.
 
 <div align="center">
-    <img src="public/NavBar_Anyone.png" alt="NavBar_1" width="120" height="120">
+    <img src="public/NavBar_Anyone.png" alt="NavBar_1"  height="60">
 </div>
 
 Logon:
 After a user logs in, the Navigation bar will display links to the Marketplace, Features, About, Contact, and Profile pages.
 
 <div align="center">
-    <img src="public/NavBar_Logon.png" alt="NavBar_2" width="120" height="120">
+    <img src="public/NavBar_Logon.png" alt="NavBar_2" height="60">
 </div>
 
 Landing Page:
 The splash page is the first page users will see when navigating to the site. Users will be able to click on links; "Start Shopping" or "View Features" page.
 
 <div align="center">
-    <img src="public/LandingPage.png" alt="landingpage" width="120" height="120">
+    <img src="public/LandingPage.png" alt="landingpage"  height="160">
 </div>
 
 Features:
 The features page will show details about MyMedVita’s application features.
 
 <div align="center">
-    <img src="public/FeaturesPage.png" alt="featurespage" width="80" height="120">
+    <img src="public/FeaturesPage.png" alt="featurespage"  width="120">
 </div>
 
 AboutPage:
@@ -126,7 +132,7 @@ Selection of multiple or all insurers.
 Clicking on "Click Here for a CPT Reference Sheet" will provide all the CPT codes and description.
 
 <div align="center">
-    <img src="public/Marketplace_page.png" alt="mktplace" width="120" height="120">
+    <img src="public/Marketplace_page.png" alt="mktplace" height="160">
 </div>
 
 Marketplace Results:
@@ -140,7 +146,7 @@ Note:
 Provider HAS TO BE ORDERED in the following format: First Name Last Name, Credentials.
 
 <div align="center">
-    <img src="public/Marketplace_results.png" alt="results" width="120" height="120">
+    <img src="public/Marketplace_results.png" alt="results"  height="160">
 </div>
 
 Providers Detail Page:
@@ -150,25 +156,25 @@ The Provider Details Page will list all details for a specified provider
 Results show: Provider, Procedure, Address, Price, Phone number, Distance, Map location
 
 <div align="center">
-    <img src="public/providerDetail.png" alt="provider" width="120" height="120">
+    <img src="public/providerDetail.png" alt="provider" height="160">
 </div>
 
 User Page and User Edit Page:
 Allows the user to see the information and the edit page allows the user to edit that information.
 
 <div align="center">
-    <img src="public/userpage.png" alt="user" width="120" height="120">
+    <img src="public/userpage.png" alt="user" height="160">
 </div>
 
 <div align="center">
-    <img src="public/useredit.png" alt="useredit" width="120" height="120">
+    <img src="public/useredit.png" alt="useredit"  height="160">
 </div>
 
 Saved Searchers:
 Allows users to see their saved searches for later reference
 
 <div align="center">
-    <img src="public/SavedSearches.png" alt="searches" width="120" height="120">
+    <img src="public/SavedSearches.png" alt="searches" height="160">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -187,8 +193,12 @@ This application was developed by the following group of Fullstack Software Engi
 - [Sarith Seang](Sarithseang82pro@gmail.com)
 - [Scott Pak](gpak86@gmail.com)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Acknowledgement
 
 ---
 
 Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped us to make this application a reality and to the MyMedVita organization in giving us a project to stretch our collective skills.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
